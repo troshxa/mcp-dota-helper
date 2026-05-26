@@ -12,6 +12,7 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <PackageReference Include="System.CommandLine" Version="3.0.0-preview.4.26230.115" />
   </ItemGroup>
 
 </Project>
