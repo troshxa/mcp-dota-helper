@@ -42,12 +42,19 @@ dotacli recent-matches <id> [--limit N]
 `<id>` — SteamID64 or AccountID of the player. Automatic conversion between formats is supported.
 
 ### Example Output
+```
+dotnet run --project dotacli -- top-heroes 76561198943516093
+```
 
 ```
 Hero                 | Games  | Wins     | Winrate
 -------------------------------------------------
-Anti-Mage            | 120    | 75       |  62.5%
-Invoker              | 98     | 54       |  55.1%
+Invoker              | 146    | 64       |  43,8%
+Morphling            | 76     | 33       |  43,4%
+Tinker               | 76     | 26       |  34,2%
+Shadow Fiend         | 54     | 22       |  40,7%
+Rubick               | 52     | 31       |  59,6%
+-------------------------------------------------
 ```
 
 ### Exit Codes
@@ -141,7 +148,6 @@ The server runs continuously and listens for JSON-RPC requests via stdin.
 ## Proof of MCP Tool Usage (for demo)
 
 To prove the model is calling the local tool and not answering from training data:
-
 **With MCP server on** — Copilot calls the actual tool and returns live data:
 
 <p align="center">
