@@ -141,11 +141,22 @@ The server runs continuously and listens for JSON-RPC requests via stdin.
 ## Proof of MCP Tool Usage (for demo)
 
 To prove the model is calling the local tool and not answering from training data:
-with mcp server on:
-![alt text](ilustation-pics/image.png)
-![alt text](ilustation-pics/image-1.png)
-with mcp server of:
-![alt text](ilustation-pics/image-3.png)
+
+**With MCP server on** — Copilot calls the actual tool and returns live data:
+
+<p align="center">
+  <img src="ilustation-pics/image.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="ilustation-pics/image-1.png" width="700"/>
+</p>
+
+**With MCP server off** — Copilot falls back to training data (wrong/hallucinated):
+
+<p align="center">
+  <img src="ilustation-pics/image-3.png" width="700"/>
+</p>
 
 
 ## Testing with MCP Inspector
