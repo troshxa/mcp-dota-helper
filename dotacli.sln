@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotacli", "dotacli\dotacli.csproj", "{A85A2FE8-2E84-4EC8-923A-5FA885D62A6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotacli-mcp", "dotacli-mcp\dotacli-mcp.csproj", "{57CF058B-1A44-4045-AC5A-27FB59F6C843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{A85A2FE8-2E84-4EC8-923A-5FA885D62A6B}.Release|x64.Build.0 = Release|Any CPU
 		{A85A2FE8-2E84-4EC8-923A-5FA885D62A6B}.Release|x86.ActiveCfg = Release|Any CPU
 		{A85A2FE8-2E84-4EC8-923A-5FA885D62A6B}.Release|x86.Build.0 = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|x64.Build.0 = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Debug|x86.Build.0 = Debug|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|x64.ActiveCfg = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|x64.Build.0 = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|x86.ActiveCfg = Release|Any CPU
+		{57CF058B-1A44-4045-AC5A-27FB59F6C843}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

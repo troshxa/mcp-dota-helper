@@ -1,13 +1,24 @@
-# Ігнорувати файли з секретами
+# Secrets
 appsettings.json
 
-# === Папки компіляції .NET ===
+# .NET build output
 **/bin/
 **/obj/
 
-# === Налаштування VS Code ===
+# VS Code
 .vscode/
 
-# === Додаткові системні файли (якщо з'являться) ===
+# Claude Code session data
+.claude/
+
+# Assignment file (not part of the project)
+ptsd_ai_assisted_coding.md
+
+# Visual Studio
 *.user
 *.suo
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
